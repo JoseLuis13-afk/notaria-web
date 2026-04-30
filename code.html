@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NOTARÍA DE FE PÚBLICA No. 2 - Abogada Lucy Marina Quispe Flores</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&amp;family=Noto+Serif:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#f2ca50",
+                        "on-background": "#e5e2e1",
+                        "surface": "#131313",
+                        "on-surface": "#e5e2e1",
+                        "background": "#131313",
+                        "gold-start": "#D4AF37",
+                        "gold-end": "#F2CA50"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1200px",
+                        "margin": "64px",
+                        "gutter": "24px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Noto Serif", "serif"],
+                        "body-md": ["Manrope", "sans-serif"],
+                        "display-lg": ["Noto Serif", "serif"],
+                        "body-lg": ["Manrope", "sans-serif"],
+                        "headline-md": ["Noto Serif", "serif"],
+                        "label-md": ["Manrope", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { 
+            background-color: #0e0e0e;
+            background-image: radial-gradient(circle at 2px 2px, rgba(212, 175, 55, 0.05) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #D4AF37 0%, #F2CA50 50%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #D4AF37 0%, #F2CA50 50%, #D4AF37 100%);
+        }
+        .gradient-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #D4AF37, transparent);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        .shimmer-btn {
+            position: relative;
+            overflow: hidden;
+        }
+        .shimmer-btn::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 45%, rgba(255,255,255,0.3) 50%, transparent 55%);
+            animation: shimmer 4s infinite;
+        }
+        @keyframes shimmer {
+            0% { transform: translate(-30%, -30%) rotate(0deg); }
+            100% { transform: translate(30%, 30%) rotate(0deg); }
+        }
+        .hero-glow {
+            filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
+        }
+    </style>
+</head>
+<body class="text-on-background font-body-md antialiased min-h-screen flex flex-col pt-[88px]">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-8 py-4 backdrop-blur-xl bg-black/80 font-serif text-sm tracking-widest uppercase border-b border-gold-start/20 transition-all duration-300 ease-in-out">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-gold-start text-3xl hero-glow">account_balance</span>
+<div class="text-xl font-bold gold-gradient-text tracking-tighter">NOTARÍA DE FE PÚBLICA No. 2</div>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-gold-start border-b-2 border-gold-start pb-1 transition-colors" href="#">Inicio</a>
+<a class="text-on-background/60 hover:text-gold-start transition-colors" href="#servicios">Servicios</a>
+<a class="text-on-background/60 hover:text-gold-start transition-colors" href="#acerca">Acerca de</a>
+<a class="text-on-background/60 hover:text-gold-start transition-colors" href="#contacto">Contacto</a>
+<a href="https://wa.me/59168167488" target="_blank" class="hidden lg:block px-6 py-2 border border-gold-start text-gold-start hover:bg-gold-start/10 transition-all duration-300 font-label-md tracking-wider text-center">SOLICITAR CONSULTA</a>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative w-full min-h-[85vh] flex flex-col justify-center items-center text-center px-gutter py-margin overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background z-0"></div>
+<!-- Ambient light effect -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gold-start/5 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="z-10 max-w-container-max mx-auto flex flex-col items-center gap-8" data-aos="zoom-in">
+<span class="material-symbols-outlined text-gold-start text-7xl mb-4 hero-glow" style="font-variation-settings: 'FILL' 1;">gavel</span>
+<h1 class="font-display-lg text-display-lg gold-gradient-text text-center max-w-4xl tracking-wide uppercase">
+                NOTARÍA DE FE PÚBLICA No. 2
+            </h1>
+<div class="flex flex-col items-center gap-2 mt-4">
+<h2 class="font-headline-md text-on-surface tracking-widest uppercase">
+                    Lucy Marina Quispe Flores
+                </h2>
+<p class="font-label-md text-gold-start tracking-[0.4em] uppercase font-bold">
+                    ABOGADA
+                </p>
+</div>
+<div class="gradient-divider w-48 my-8"></div>
+<a href="https://wa.me/59168167488" target="_blank" class="shimmer-btn mt-8 px-12 py-5 gold-gradient-bg text-black font-label-md text-label-md uppercase tracking-widest font-bold shadow-[0_0_30px_rgba(212,175,55,0.4)] hover:scale-105 transition-all duration-300 inline-block text-center">
+                SOLICITAR CONSULTA
+            </a>
+</div>
+</section>
+<!-- Acerca de -->
+<section class="w-full py-24 px-gutter" id="acerca" data-aos="fade-up">
+<div class="max-w-container-max mx-auto grid md:grid-cols-2 gap-16 items-center">
+<div class="relative group" data-aos="fade-right">
+<div class="absolute -inset-4 border border-gold-start/20 transition-all duration-500 group-hover:border-gold-start/40"></div>
+<div class="relative aspect-[3/4] w-full max-w-md mx-auto glass-card p-3 shadow-2xl">
+<img alt="Professional Portrait" class="w-full h-full object-cover grayscale brightness-90 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700 ease-in-out" src="recursos/abogada_terno_negro.png"/>
+</div>
+</div>
+<div class="flex flex-col gap-8" data-aos="fade-left">
+<h2 class="font-headline-lg text-headline-lg gold-gradient-text tracking-wider uppercase">Acerca de la Notaría</h2>
+<div class="w-20 h-1 gold-gradient-bg"></div>
+<p class="font-body-lg text-on-surface-variant leading-relaxed text-justify">
+                    Comprometidos con la excelencia en la seguridad jurídica y la fe pública. Bajo la dirección de la Abogada Lucy Marina Quispe Flores, brindamos un servicio transparente, eficiente y accesible, garantizando la legalidad y autenticidad de sus actos jurídicos en San Borja - Beni.
+                </p>
+<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="flex flex-col gap-1">
+<span class="text-gold-start font-bold text-2xl">Transparencia</span>
+<p class="text-xs text-on-surface-variant uppercase tracking-tighter">Valores institucionales</p>
+</div>
+<div class="flex flex-col gap-1">
+<span class="text-gold-start font-bold text-2xl">Integridad</span>
+<p class="text-xs text-on-surface-variant uppercase tracking-tighter">Seguridad Jurídica</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Servicios Notariales -->
+<section class="w-full py-24 px-gutter" id="servicios">
+<div class="max-w-container-max mx-auto flex flex-col items-center">
+<h2 class="font-headline-lg text-headline-lg gold-gradient-text mb-6 text-center tracking-widest uppercase" data-aos="fade-up">Nuestros Servicios Notariales</h2>
+<div class="gradient-divider w-40 mb-20" data-aos="fade-up" data-aos-delay="100"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+<!-- Service Items -->
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="100">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">description</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Protocolización de Minutas y Escrituras Públicas</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Formalización de actos jurídicos con total rigor legal.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="200">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">verified_user</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Poderes Especiales y Generales</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Poderes especiales y generales con validez nacional e internacional.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="300">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">home_work</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Transferencias de Bienes Muebles e Inmuebles</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Transferencia vehicular y de bienes inmuebles bajo estrictos protocolos de seguridad.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="400">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">mail</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Cartas Notariales y Notificadas</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Redacción y diligenciamiento de notificaciones y cartas certificadas.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="500">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">draw</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Reconocimientos de Firmas Rúbricas</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Autenticación de rúbricas y firmas en documentos públicos y privados.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="600">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">inventory_2</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Inventarios Remates y Sorteos</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Realización de inventarios, remates y sorteos con fe pública.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="700">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">history_edu</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Testamentos Abiertos y Cerrados</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Asesoría y redacción de testamentos asegurando la voluntad del testador.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="800">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">family_restroom</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Declaratoria de Herederos</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Trámites legales para la declaración de herederos.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="900">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">business</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Constitución de Sociedades</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Formalización y creación de sociedades comerciales y civiles.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="1000">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">menu_book</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Apertura y Cierre de Libros</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Certificación de libros de actas y contables.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="1100">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">record_voice_over</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Declaraciones Voluntarias</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Recepción de declaraciones juradas voluntarias.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="1200">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">edit_document</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Escrituras de Aclaración, Rectificación y Complementación</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Modificaciones legales sobre documentos preexistentes.</p>
+</div>
+<div class="glass-card p-8 group hover:border-gold-start/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(212,175,55,0.1)]" data-aos="fade-up" data-aos-delay="1300">
+<span class="material-symbols-outlined text-gold-start text-4xl mb-6 block group-hover:scale-110 transition-transform duration-300">balance</span>
+<h3 class="font-headline-md text-lg mb-3 text-on-surface">Procesos en la Vía Voluntaria</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Divorcios, declaratoria de herederos y otros.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Información y Contacto -->
+<section class="w-full py-24 px-gutter bg-black/40" id="contacto">
+<div class="max-w-container-max mx-auto">
+<div class="flex flex-col items-center mb-20">
+<h2 class="font-headline-lg text-headline-lg gold-gradient-text mb-6 text-center tracking-widest uppercase">Información y Contacto</h2>
+<div class="gradient-divider w-40"></div>
+</div>
+<div class="grid lg:grid-cols-2 gap-16 items-start">
+<div class="flex flex-col gap-12">
+<div class="flex items-start gap-6">
+<div class="p-3 glass-card rounded-lg">
+<span class="material-symbols-outlined text-gold-start text-3xl">location_on</span>
+</div>
+<div>
+<h3 class="font-headline-md text-xl text-on-surface mb-3 tracking-wide">Nuestra Ubicación</h3>
+<p class="font-body-lg text-on-surface-variant">San Borja - Beni, Bolivia</p>
+<div class="mt-6 w-full h-56 glass-card border-gold-start/10 flex items-center justify-center overflow-hidden grayscale group hover:grayscale-0 transition-all duration-700">
+<iframe src="https://maps.google.com/maps?q=-14.857961,-66.746078&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="flex items-start gap-6">
+<div class="p-3 glass-card rounded-lg">
+<span class="material-symbols-outlined text-gold-start text-3xl">call</span>
+</div>
+<div>
+<h3 class="font-headline-md text-xl text-on-surface mb-2 tracking-wide">Llámenos</h3>
+<p class="font-body-lg text-on-surface-variant font-bold">68167488</p>
+<p class="font-body-lg text-on-surface-variant font-bold">73210215</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="p-3 glass-card rounded-lg">
+<span class="material-symbols-outlined text-gold-start text-3xl">mail</span>
+</div>
+<div>
+<h3 class="font-headline-md text-xl text-on-surface mb-2 tracking-wide">Correo</h3>
+<p class="font-body-lg text-on-surface-variant break-all text-sm">lucyquispeflores1323@gmail.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="glass-card p-10 border-gold-start/20 shadow-2xl relative">
+<div class="absolute top-0 right-0 p-4">
+<span class="material-symbols-outlined text-gold-start/20 text-6xl">edit_note</span>
+</div>
+<form action="https://formsubmit.co/lucyquispeflores1323@gmail.com" method="POST" class="flex flex-col gap-8 relative z-10">
+<input type="hidden" name="_subject" value="Nueva consulta desde la web de la Notaría">
+<input type="hidden" name="_captcha" value="false">
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-xs uppercase tracking-widest text-gold-start/70">Nombre Completo</label>
+<input name="nombre" class="bg-transparent border-0 border-b-2 border-white/10 focus:ring-0 focus:border-gold-start text-on-surface px-0 py-3 transition-all duration-300 placeholder-white/20" placeholder="Su nombre y apellidos" type="text" required/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-xs uppercase tracking-widest text-gold-start/70">Correo Electrónico</label>
+<input name="email" class="bg-transparent border-0 border-b-2 border-white/10 focus:ring-0 focus:border-gold-start text-on-surface px-0 py-3 transition-all duration-300 placeholder-white/20" placeholder="ejemplo@correo.com" type="email" required/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-xs uppercase tracking-widest text-gold-start/70">Mensaje o Consulta</label>
+<textarea name="mensaje" class="bg-transparent border-0 border-b-2 border-white/10 focus:ring-0 focus:border-gold-start text-on-surface px-0 py-3 transition-all duration-300 placeholder-white/20 resize-none" placeholder="Escriba aquí los detalles de su requerimiento..." rows="4" required></textarea>
+</div>
+<button class="shimmer-btn mt-6 w-full py-4 gold-gradient-bg text-black font-bold uppercase tracking-widest hover:shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-all duration-300" type="submit">
+                            ENVIAR MENSAJE
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 flex flex-col items-center gap-8 border-t border-gold-start/10 bg-gradient-to-b from-transparent to-black/80">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-gold-start text-2xl hero-glow">account_balance</span>
+<div class="text-xl font-bold gold-gradient-text tracking-widest uppercase">NOTARÍA DE FE PÚBLICA No. 2</div>
+</div>
+<div class="flex flex-wrap justify-center gap-x-12 gap-y-4">
+<a class="text-on-surface-variant/70 hover:text-gold-start transition-colors text-xs uppercase tracking-widest" href="#">Privacidad</a>
+<a class="text-on-surface-variant/70 hover:text-gold-start transition-colors text-xs uppercase tracking-widest" href="#">Términos</a>
+<a class="text-on-surface-variant/70 hover:text-gold-start transition-colors text-xs uppercase tracking-widest" href="#">DIRNOPLU</a>
+<a class="text-on-surface-variant/70 hover:text-gold-start transition-colors text-xs uppercase tracking-widest" href="#">MIN. JUSTICIA</a>
+</div>
+<div class="text-center text-on-surface-variant/40 max-w-2xl mt-4 text-[10px] uppercase tracking-[0.2em] leading-relaxed">
+        © 2026 NOTARÍA DE FE PÚBLICA No. 2 - Abogada Lucy Marina Quispe Flores.<br/>Servicios jurídicos integrales en San Borja - Beni, Bolivia. Todos los derechos reservados.
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+    });
+</script>
+</body></html>
